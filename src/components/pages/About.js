@@ -12,7 +12,7 @@ function AboutText({ title, desc, image }) {
       </div>
       <div className="about-txt">
         <h2>{title}</h2>
-        <h2>{desc}</h2>
+        <p>{desc}</p>
       </div>
     </div>
   );

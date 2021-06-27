@@ -118,7 +118,7 @@ function Portfolio() {
       <Layout>
         <section id="portCont">
           <div className="container">
-            <WrapTitle text={["Portfolio", "book"]} />
+            <WrapTitle text={["Portfolio", "book"]} info="light" />
             <div className="port__cont">
               {portfolioInfo.map((info) => (
                 <Port

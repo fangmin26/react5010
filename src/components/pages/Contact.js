@@ -1,11 +1,20 @@
 import React from "react";
 import Header from "../Header";
+import Layout from "../Layout";
 
 function Contact() {
   return (
-    <div>
+    <div id="wrap">
       <Header />
-      <div>Contact 페이지입니다.</div>
+      <Layout>
+        <section id="contactCont">
+          <div className="contact__cont">
+            <div>YOU ARE</div>
+            <div>ALREADY</div>
+            <div>DOING WELL.</div>
+          </div>
+        </section>
+      </Layout>
     </div>
   );
 }
